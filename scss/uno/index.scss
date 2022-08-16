@@ -1,0 +1,10 @@
+// 这是一份 类 unocss 的样式表.
+// 由于 ie11 无法识别 css Variable, 所以做个scss变体.
+// 所有用到样式从 unocss 官方 copy 一份, 并除去变量保存于此.
+
+@import 'display.scss';
+@import 'spacing.scss';
+@import 'border.scss';
+
+@import 'bg.scss';
+@import 'text.scss';

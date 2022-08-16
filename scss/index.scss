@@ -1,0 +1,10 @@
+@import 'common.scss';
+
+.hello {
+    @extend %text-sky, %p-4;
+    background: #ecc;
+}
+
+a {
+    @extend %block, %p-4, %mx-auto, %text-center, %border, %rounded;
+}
