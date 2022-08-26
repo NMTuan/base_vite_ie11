@@ -10,8 +10,10 @@
         "preview": "vite preview"
     },
     "devDependencies": {
+        "@unocss/transformer-directives": "^0.45.13",
         "normalize.css": "^8.0.1",
         "terser": "^5.14.2",
+        "unocss": "^0.45.13",
         "vite": "^3.0.7"
     },
     "dependencies": {

@@ -1,10 +1,7 @@
-@import 'common.scss';
-
 .hello {
-    @extend %text-sky, %p-4;
-    background: #ecc;
+    @apply text-sky-400 p-4 bg-#ecc;
 }
 
 a {
-    @extend %block, %p-4, %mx-auto, %text-center, %border, %rounded;
+    @apply block p-4 mx-auto text-center border rounded;
 }
